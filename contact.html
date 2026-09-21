@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Samuel</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        .contact-box {
+            max-width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            background: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            color: #6a1b9a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Samuel</h1>
+        <p>Samuel Tech Blog</p>
+    </header>
+
+    <div class="contact-box">
+
+        <h2>Send Me a Message</h2>
+
+        <form action="fodesosamuel14@gmail.com"
+              method="post"
+              enctype="text/plain">
+
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Fodeso Samuel required>
+
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="fodesosamuel14@gmail.com" required>
+
+            <label>Your Message</label>
+            <textarea name="message" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <a href="index.html" class="back">← Back to Blog</a>
+
+    </div>
+
+</body>
+</html>
